@@ -938,7 +938,7 @@ height: 100vh;
 
 
 
-@media screen and (min-height: 768px) {
+@media screen and (min-height: 768px),(min-height: 590px) {
 
   .video-container{
     height: 80vh;
@@ -961,9 +961,11 @@ height: 100vh;
     position: relative;
   }
   .vision{
+    margin-top: 30px;;
     position: relative;
   }
   .objective{
+    margin-top: 30px;
     position: relative;
   }
 }
