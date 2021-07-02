@@ -390,6 +390,7 @@ padding: 7%;
   text-align: center;
   padding-top: 0;
   padding-bottom: 0.6%;
+  margin: 0;
 
 }
 .nav-link{
@@ -743,7 +744,7 @@ height: 100vh;
 }
 
 #quote{
-  padding: 1% 15%;
+
   background: rgba(0, 125, 255, 0.2);
 }
 
@@ -933,4 +934,22 @@ height: 100vh;
 .sidenavcontainer{
   padding: 5%;
   text-align: left;
+}
+
+
+
+@media screen and (min-height: 768px) {
+
+  .video-container{
+    height: 80vh;
+
+  }
+
+  .introtext{
+    top: 26vh;
+  }
+
+  .breadcrumbintro{
+    top: 26vh;
+  }
 }
