@@ -949,14 +949,22 @@ height: 100vh;
   }
 
   .breadcrumbintro{
-    top: 30vh;
+    top: 50vh;
   }
 
   #quote{
-    height: 30vh;
+    height: 50vh;
   }
 
 
 }
 
-@media screen and (min-height: 570px)
+@media screen and (min-height: 570px) {
+  .introtext{
+    top: 50vh;
+  }
+
+  .breadcrumbintro{
+    top: 50vh;
+  }
+}
