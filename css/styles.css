@@ -956,4 +956,14 @@ height: 100vh;
   #quote{
     height: 30vh;
   }
+
+  .mission{
+    position: relative;
+  }
+  .vision{
+    position: relative;
+  }
+  .objective{
+    position: relative;
+  }
 }
