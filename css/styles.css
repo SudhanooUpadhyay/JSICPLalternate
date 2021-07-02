@@ -808,7 +808,8 @@ height:100%;
 .mission{
   background-color: #73a1eb;
   width: 50%;
-  position: absolute;
+  position: relative;
+
   top: 384%;
   left: 20%;
   z-index: 999;
@@ -823,7 +824,8 @@ height:100%;
 .vision{
   background-color: #73a1eb;
   width: 50%;
-  position: absolute;
+  position: relative;
+  margin-top: 30px;
   top: 425%;
   left: 20%;
   z-index: 999;
@@ -838,7 +840,8 @@ height:100%;
 .objective{
   background-color: #73a1eb;
   width: 50%;
-  position: absolute;
+  position: relative;
+  margin-top: 30px;
   top: 460%;
   left: 20%;
   z-index: 999;
@@ -938,12 +941,8 @@ height: 100vh;
 
 
 
-@media screen and (min-height: 768px),(min-height: 590px) {
+@media screen and (min-height: 768px) {
 
-  .video-container{
-    height: 80vh;
-
-  }
 
   .introtext{
     top: 26vh;
@@ -957,15 +956,7 @@ height: 100vh;
     height: 30vh;
   }
 
-  .mission{
-    position: relative;
-  }
-  .vision{
-    margin-top: 30px;;
-    position: relative;
-  }
-  .objective{
-    margin-top: 30px;
-    position: relative;
-  }
+
 }
+
+@media screen and (min-height: 570px)
