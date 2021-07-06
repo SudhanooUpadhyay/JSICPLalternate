@@ -94,12 +94,8 @@ border-radius: 3.125rem !important;
 
 .homecarouselheadingheader{
   color: black;
-  top: 54.5%;
-  left: 0%;
-  background-color: rgba(255, 255, 255, 0.5);
-  position: absolute;
   padding: 1%;
-  text-shadow: 3px 3px white;
+  text-shadow: 3px 3px #98de6f;
 }
 
 .homecarouseltextcareer{
